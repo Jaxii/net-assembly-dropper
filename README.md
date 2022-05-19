@@ -13,3 +13,4 @@ after: ![image](https://user-images.githubusercontent.com/42078529/169199902-304
 - DInvoke AMSI bypass: https://github.com/Kudaes/DInvoke_rs 
 - Rewrite powershell builder and add "-ExecutionPolicy Bypass" flag
 - Add anti-VM
+- Native support
