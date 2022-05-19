@@ -8,6 +8,13 @@ before: ![image](https://user-images.githubusercontent.com/42078529/169199884-6b
 
 after: ![image](https://user-images.githubusercontent.com/42078529/169199902-304cef2c-fa87-4c4a-a7e1-85f9529cfd40.png)
 
+
+
+**Usage:**
+
+Replace "C:\\Users\\Desktop\\File.exe" with the path to your file and build the project in release mode. The resulting binary will have your original file embedded and AES encrypted.
+
+
 **Todo:**
 - Reduce binary size
 - DInvoke AMSI bypass: https://github.com/Kudaes/DInvoke_rs 
