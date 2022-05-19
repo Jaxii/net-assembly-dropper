@@ -11,4 +11,5 @@ after: ![image](https://user-images.githubusercontent.com/42078529/169199902-304
 **Todo:**
 - Reduce binary size
 - DInvoke AMSI bypass instead of powershell based
-- rewrite powershell builder and add "-ExecutionPolicy Bypass" flag
+- Rewrite powershell builder and add "-ExecutionPolicy Bypass" flag
+- Add anti-VM
