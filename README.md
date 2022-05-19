@@ -21,5 +21,5 @@ Replace "C:\\Users\\Desktop\\File.exe" with the path to your file and build the 
 - Reduce binary size
 - DInvoke AMSI bypass: https://github.com/Kudaes/DInvoke_rs 
 - Rewrite powershell builder and add "-ExecutionPolicy Bypass" flag
-- Add anti-VM
+- Implement anti-vm techniques
 - Native support
