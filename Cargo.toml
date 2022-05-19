@@ -1,0 +1,16 @@
+[package]
+name = "Rust_NetDropper_POC"
+author = "github.com/Jaxii"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+include-crypt = "0.1.1"
+powershell_script = "1.0.2"
+base64 = "0.13.0"
+obfstr = "0.3.0"
+
+[profile.release]
+strip = true
