@@ -8,9 +8,12 @@ edition = "2021"
 
 [dependencies]
 include-crypt = "0.1.1"
-powershell_script = "1.0.2"
 base64 = "0.13.0"
 obfstr = "0.3.0"
+aes = "0.7.5"
+
+winapi = {version = "0.3.9", features=["memoryapi", "libloaderapi", "processthreadsapi"]}
+win32-error = "0.9.0"
 
 [profile.release]
 strip = true
